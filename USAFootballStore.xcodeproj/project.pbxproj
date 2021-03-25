@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		130EC22E260CCA8200A59F39 /* USAFootballStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EC21B260CCA8100A59F39 /* USAFootballStoreApp.swift */; };
+		130EC22F260CCA8200A59F39 /* USAFootballStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EC21B260CCA8100A59F39 /* USAFootballStoreApp.swift */; };
+		130EC230260CCA8200A59F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EC21C260CCA8100A59F39 /* ContentView.swift */; };
+		130EC231260CCA8200A59F39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130EC21C260CCA8100A59F39 /* ContentView.swift */; };
+		130EC232260CCA8200A59F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130EC21D260CCA8200A59F39 /* Assets.xcassets */; };
+		130EC233260CCA8200A59F39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 130EC21D260CCA8200A59F39 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		130EC21B260CCA8100A59F39 /* USAFootballStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USAFootballStoreApp.swift; sourceTree = "<group>"; };
+		130EC21C260CCA8100A59F39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		130EC21D260CCA8200A59F39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		130EC222260CCA8200A59F39 /* USAFootballStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USAFootballStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		130EC225260CCA8200A59F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130EC22A260CCA8200A59F39 /* USAFootballStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USAFootballStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		130EC22C260CCA8200A59F39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		130EC22D260CCA8200A59F39 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		130EC21F260CCA8200A59F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EC227260CCA8200A59F39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		130EC215260CCA8100A59F39 = {
+			isa = PBXGroup;
+			children = (
+				130EC21A260CCA8100A59F39 /* Shared */,
+				130EC224260CCA8200A59F39 /* iOS */,
+				130EC22B260CCA8200A59F39 /* macOS */,
+				130EC223260CCA8200A59F39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		130EC21A260CCA8100A59F39 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				130EC21B260CCA8100A59F39 /* USAFootballStoreApp.swift */,
+				130EC21C260CCA8100A59F39 /* ContentView.swift */,
+				130EC21D260CCA8200A59F39 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		130EC223260CCA8200A59F39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				130EC222260CCA8200A59F39 /* USAFootballStore.app */,
+				130EC22A260CCA8200A59F39 /* USAFootballStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		130EC224260CCA8200A59F39 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				130EC225260CCA8200A59F39 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		130EC22B260CCA8200A59F39 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				130EC22C260CCA8200A59F39 /* Info.plist */,
+				130EC22D260CCA8200A59F39 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		130EC221260CCA8200A59F39 /* USAFootballStore (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130EC236260CCA8200A59F39 /* Build configuration list for PBXNativeTarget "USAFootballStore (iOS)" */;
+			buildPhases = (
+				130EC21E260CCA8200A59F39 /* Sources */,
+				130EC21F260CCA8200A59F39 /* Frameworks */,
+				130EC220260CCA8200A59F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USAFootballStore (iOS)";
+			productName = "USAFootballStore (iOS)";
+			productReference = 130EC222260CCA8200A59F39 /* USAFootballStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		130EC229260CCA8200A59F39 /* USAFootballStore (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 130EC239260CCA8200A59F39 /* Build configuration list for PBXNativeTarget "USAFootballStore (macOS)" */;
+			buildPhases = (
+				130EC226260CCA8200A59F39 /* Sources */,
+				130EC227260CCA8200A59F39 /* Frameworks */,
+				130EC228260CCA8200A59F39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "USAFootballStore (macOS)";
+			productName = "USAFootballStore (macOS)";
+			productReference = 130EC22A260CCA8200A59F39 /* USAFootballStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		130EC216260CCA8100A59F39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					130EC221260CCA8200A59F39 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					130EC229260CCA8200A59F39 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 130EC219260CCA8100A59F39 /* Build configuration list for PBXProject "USAFootballStore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 130EC215260CCA8100A59F39;
+			productRefGroup = 130EC223260CCA8200A59F39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				130EC221260CCA8200A59F39 /* USAFootballStore (iOS) */,
+				130EC229260CCA8200A59F39 /* USAFootballStore (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		130EC220260CCA8200A59F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EC232260CCA8200A59F39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EC228260CCA8200A59F39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EC233260CCA8200A59F39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130EC21E260CCA8200A59F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EC230260CCA8200A59F39 /* ContentView.swift in Sources */,
+				130EC22E260CCA8200A59F39 /* USAFootballStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		130EC226260CCA8200A59F39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				130EC231260CCA8200A59F39 /* ContentView.swift in Sources */,
+				130EC22F260CCA8200A59F39 /* USAFootballStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		130EC234260CCA8200A59F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		130EC235260CCA8200A59F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		130EC237260CCA8200A59F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVHNSPM887;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pikdays.USAFootballStore;
+				PRODUCT_NAME = USAFootballStore;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		130EC238260CCA8200A59F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XVHNSPM887;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pikdays.USAFootballStore;
+				PRODUCT_NAME = USAFootballStore;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		130EC23A260CCA8200A59F39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XVHNSPM887;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pikdays.USAFootballStore;
+				PRODUCT_NAME = USAFootballStore;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		130EC23B260CCA8200A59F39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XVHNSPM887;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pikdays.USAFootballStore;
+				PRODUCT_NAME = USAFootballStore;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		130EC219260CCA8100A59F39 /* Build configuration list for PBXProject "USAFootballStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130EC234260CCA8200A59F39 /* Debug */,
+				130EC235260CCA8200A59F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130EC236260CCA8200A59F39 /* Build configuration list for PBXNativeTarget "USAFootballStore (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130EC237260CCA8200A59F39 /* Debug */,
+				130EC238260CCA8200A59F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		130EC239260CCA8200A59F39 /* Build configuration list for PBXNativeTarget "USAFootballStore (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				130EC23A260CCA8200A59F39 /* Debug */,
+				130EC23B260CCA8200A59F39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 130EC216260CCA8100A59F39 /* Project object */;
+}
